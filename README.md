@@ -33,9 +33,9 @@ If there is some errors you can add -hold option in front of xterm to let the Xw
 ```
 
 You can modify time.sleep() in the script if you want.
-There are not always necessary but it strongly advised because some actions of the web interface and data load need some time.
+There are not always necessary but it strongly advised because some actions of the web interface and data loads need some time.
 
 ## External Source
  
-selenium : http://www.seleniumhq.org/
-MISP-IOC-Validator : https://github.com/tom8941/MISP-IOC-Validator
+- selenium : http://www.seleniumhq.org/
+- MISP-IOC-Validator : https://github.com/tom8941/MISP-IOC-Validator
