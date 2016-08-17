@@ -18,7 +18,7 @@ you can get an export of validated snort rules from MISP and upload it automatic
 
 ```
 parameters : 
-  -f FILE, --file FILE  Yara file to upload
+  -f FILE, --file FILE  Snort file to upload
   -s SOURCEFIRE, --sourcefire SOURCEFIRE
                         Sourcefire ip or hostname
   -u USER, --user USER  Sourcefire user account
