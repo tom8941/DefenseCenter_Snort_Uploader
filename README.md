@@ -27,7 +27,7 @@ parameters :
   -i UUID, --uuid UUID  Intrusion Policy UUID that will contains new
                         signatures
 
-DISPLAY=:0 xterm -e './dc_snort_uploader.py -u user -p password -s sourcefire.local  -f /tmp/yara_rules.yml -i xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+DISPLAY=:0 xterm -e './dc_snort_uploader.py -u user -p password -s sourcefire.local  -f /tmp/snort_rules.yml -i xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 If there is some errors you can add -hold option in front of xterm to let the Xwindow open
 ```
