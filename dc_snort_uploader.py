@@ -7,7 +7,7 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser(description="Upload Snort to Defense center Sourcefire Snort")
-parser.add_argument("-f", "--file", help="Yara file to upload", required=True)
+parser.add_argument("-f", "--file", help="Snort file to upload", required=True)
 parser.add_argument("-s", "--sourcefire", help="Sourcefire ip or hostname", required=True)
 parser.add_argument("-u", "--user", help="Sourcefire user account", required=True)
 parser.add_argument("-p", "--password", help="Sourcefire user password", required=True)
